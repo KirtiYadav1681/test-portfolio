@@ -1,0 +1,53 @@
+.about--section {
+    padding: 80px 0 10px 0;
+    background-color: #f5fcff;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .section--title-about {
+    font-size: 2.5rem;
+    margin-bottom: 10vh;
+    color: #333;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about--section--img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  
+  .about--section--box {
+    padding:0 10px;
+    width: 800px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .hero--section-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .about--section--box {
+        width: 80%;
+      margin: 0;
+    }
+  
+    .about--section--img img {
+      max-width: 70%;
+    }
+  }
+  
